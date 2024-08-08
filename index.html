@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🏆 LEADERBOARD 🏆</h1>
+
+        <div class="form-container">
+            <input type="text" id="firstName" placeholder="First Name">
+            <input type="text" id="lastName" placeholder="Last Name">
+            <select id="country">
+                <option value="" disabled selected>Select country</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="West Indes">West Indes</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Srilanka">Sri Lanka</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Australia">Australia</option>
+                <option value="Newzealand">Newzealand</option>
+                <option value="Nepal">Nepal</option>
+                <option value="England">England</option>
+                <option value="U.A.E">U.A.E</option>
+                <option value="Afganistan">Afganistan</option>
+                <!-- Add more options as needed -->
+            </select>
+            <input type="number" id="playerScore" placeholder="Score">
+            <button onclick="addScore()">Add Score</button>
+        </div>
+
+        <div id="leaderboard"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

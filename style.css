@@ -1,0 +1,97 @@
+body {
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    margin: 0;
+}
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input, select {
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-left: 5px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#leaderboard {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.player-card {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player-info {
+    text-align: left;
+    flex: 1;
+    padding-left: 15px;
+}
+
+.player-info div {
+    margin: 3px 0;
+}
+
+.player-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.action-btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.action-btn:hover {
+    color: #ff4747;
+}
